@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom"
-import HomeView from "../pages/homeView";
-import FormsView from "../pages/formsView";
-import MyPetsView from "../pages/myPetsView";
-import RegisterNewFormView from "../pages/registerNewFormView";
+import HomeView from "../views/homeView";
+import FormsView from "../views/formsView";
+import MyPetsView from "../views/myPetsView";
+import RegisterNewFormView from "../views/registerNewFormView";
 
 const AppRouting = () => {
     return(
