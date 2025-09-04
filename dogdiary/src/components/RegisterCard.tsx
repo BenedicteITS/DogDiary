@@ -60,31 +60,31 @@ return(
             {/*Name-field*/}
             <p>Navn: </p>
             <input 
-            type="text"
-            name="name"
-            placeholder="Dyrets navn"
-            value={formData.name}
-            onChange={handleChange}
-            className="border p-2 rounded-xl bg-white"
-            required
+                type="text"
+                name="name"
+                placeholder="Dyrets navn"
+                value={formData.name}
+                onChange={handleChange}
+                className="border p-2 rounded-xl bg-white"
+                required
              />
              {/*Date-field*/}
              <p>Dato:</p>
              <input 
-             type="date" 
-             name="date"
-             placeholder="Dato" 
-             value={formData.date}
-             onChange={handleChange}
-             className="border p-2 rounded-xl bg-white" 
+                type="date" 
+                name="date"
+                placeholder="Dato" 
+                value={formData.date}
+                onChange={handleChange}
+                className="border p-2 rounded-xl bg-white" 
              />
              {/*IsEating-field*/}
              <p>Har dyret matlyst?</p>
-             <input 
-             type="checkbox" 
-             name="isEating" 
-             onChange={handleChange}
-             className="border p-2 " 
+                <input 
+                type="checkbox" 
+                name="isEating" 
+                onChange={handleChange}
+                className="border p-2 " 
              />
               {/*Poop-field*/}
              <p>Hvordan er avføringen:</p>
@@ -101,24 +101,24 @@ return(
               </select>
               {/*Temperature-field*/}
             <p>Målt temperatur: </p>
-            <input 
-            type="text"
-            name="temperature"
-            placeholder="Temperatur"
-            value={formData.temperature}
-            onChange={handleChange}
-            className="border p-2 rounded-xl bg-white"
-            required
-             />
+                <input 
+                type="text"
+                name="temperature"
+                placeholder="Temperatur"
+                value={formData.temperature}
+                onChange={handleChange}
+                className="border p-2 rounded-xl bg-white"
+                required
+                />
               {/*Freetext-field*/}
             <p>Notater: </p>
-            <textarea 
-            name="freeText"
-            placeholder="Notater"
-            value={formData.freeText}
-            onChange={handleChange}
-            className="border p-2 rounded-xl size-60 w-100 bg-white"
-            required
+                <textarea 
+                name="freeText"
+                placeholder="Notater"
+                value={formData.freeText}
+                onChange={handleChange}
+                className="border p-2 rounded-xl size-60 w-100 bg-white"
+                required
              />
         </form>
         <button type="button" onClick={handleSubmit}className="mt-4 p-2 bg-blue-500 text-white rounded-xl"> Lagre </button>

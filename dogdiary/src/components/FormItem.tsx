@@ -17,7 +17,7 @@ const FormItem : FC<FormItemProps> = ({name, date, isEating, normalPoop, tempera
                     {onDelete && (
                         <button 
                         onClick={onDelete} 
-                        className="absolute top-2 right-2 bg-red-500 text-white px-3 py-1"
+                        className="flex bottom-1 left-1 bg-red-400 hover:bg-red-300 text-white px-1 py-1 rounded-md border-1 border-red-500 transition-colors duration-100"
                         >Slett</button>
                     )}
         </div>
