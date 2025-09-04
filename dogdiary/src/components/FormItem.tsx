@@ -3,7 +3,7 @@ import type { RegisterData } from "./RegisterCard";
 
 const FormItem : FC<RegisterData> = ({name, date, isEating, normalPoop, temperature, freeText}) => {
     return (
-        <div className="border-2 pb-3 m-2 p-2 pl-4 rounded-xl">
+        <div className="border-2 pb-3 m-2 p-2 pl-4 rounded-xl max-w-100">
                     <p>Navn: {name}</p>
                     <p>Dato: {date}</p>
                     <p>Spiser: {isEating}</p>
