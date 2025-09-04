@@ -29,18 +29,9 @@ const IllnessList = () => {
             <ul>
                 {entries.map((entry, index) => (
                 <li key={index}>
-                        <FormItem 
-                        name={entry.name} 
-                        date={entry.date} 
-                        isEating={entry.isEating} 
-                        normalPoop={entry.normalPoop} 
-                        temperature={entry.temperature} 
-                        freeText={entry.freeText}
-                        />
-                <button 
-                onClick={() => handleDelete(index)} 
-                className="bg-red-500 text-white px-3 rounded hover:bg-red-600"> Slett </button>
-                
+                       <div>
+                        <FormItem {...entry} onDelete={() => handleDelete(index)}/>
+                </div>
                 </li>
                 ))}
             </ul>
