@@ -5,10 +5,10 @@ import AppRouting from './routing/AppRouting'
 
 function App() {
   return (
-    <>
-    <NavBar/>
-    <AppRouting/>
-    </>
+    <div>
+      <NavBar/>
+      <AppRouting/>
+    </div>
   )
 }
 
